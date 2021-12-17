@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Tính Điểm Trung Bình Học Kỳ</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title">
+                    <h3>STT</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="title">
+                    <h3>Tín chỉ</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="title">
+                    <h3>Điểm</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input">
+                   <button type="button" id="btn_add">Thêm</button>
+                   <button type="button" id="btn_del">Xóa</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="stt">
+                    1
+                </div>
+            </div>
+            <div class="col">
+                <div class="input">
+                    <input type="text" class="tc">
+                </div>
+            </div>
+            <div class="col">
+                <div class="input">
+                    <input type="text" class="diem">
+                </div>
+            </div>
+            <div class="col">
+               <div class="diem4"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <button type="button" id="btn_x">Tính</button>
+        <button type="button" id="btn_rs">Reset</button>
+        <div class="result">
+            <h3 id="tong_tin_chi">Tổng tín chỉ đã học: ...</h3>
+            <h3 id="diem_tb_hk">Điểm TBHK: ...</h3>
+            <h3 id="xep_loai">Xếp loại: ...</h3>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> 
